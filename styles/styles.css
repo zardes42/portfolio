@@ -744,6 +744,9 @@ header.sticky .nav-bar{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border:1px solid black ;
+    border-radius: 10px;
+
 }
 .portfolio-model{
     z-index: 9999;
@@ -774,6 +777,7 @@ header.sticky .nav-bar{
     box-shadow: var(--box-shadow);
 
 }
+
 .portfolio-close-btn{
     position:absolute;
     top: 0;
@@ -789,6 +793,11 @@ header.sticky .nav-bar{
     width: 100%;
     margin:20px 0;
     border-radius: 10px;
+
+}
+.portfolio-model-body .learn-more-btn a:visited{
+    color: var(--third-color);
+    padding-top: 10px;
 }
 /* Get In Touch */
 
